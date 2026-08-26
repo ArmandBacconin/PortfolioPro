@@ -1,0 +1,21 @@
+{
+  "title": "Homelab : Cloud personnel & Homeserver",
+  "image": "img/homeserver.svg",
+  "category": "perso",
+  "github": "https://github.com/Tamanrasse/homeserver-personnel",
+  "tags": [
+    {
+      "label": "Perso",
+      "bg": "#eef2ff",
+      "color": "#4338ca"
+    },
+    {
+      "label": "Self-hosting",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "Cloud perso, stack *arr, hébergement de ce portfolio",
+  "detailedDescription": "Mise en place d'un serveur personnel (homeserver) hébergeant un cloud privé, la stack Servarr (Sonarr, Radarr, etc.) pour la gestion automatisée de médias, ainsi que l'hébergement de ce portfolio et d'autres services personnels.",
+  "skills": []
+}

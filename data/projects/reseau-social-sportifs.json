@@ -1,0 +1,94 @@
+{
+  "title": "Réseau Social pour Sportifs",
+  "image": "img/reseau-social-sportifs.svg",
+  "category": "but2",
+  "github": "https://github.com/Tamanrasse/reseau-social-sportifs",
+  "tags": [
+    {
+      "label": "BUT2",
+      "bg": "#f3e8ff",
+      "color": "#9333ea"
+    },
+    {
+      "label": "PHP",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "Application web en PHP",
+  "detailedDescription": "Développement d'une application web PHP pour publier des contenus liés à des sports, suivre des utilisateurs et organiser les publications par catégorie.",
+  "skills": [
+    {
+      "category": "Réaliser",
+      "color": "#7c3aed",
+      "items": [
+        "CE1.01 | en respectant les besoins décrits par le client",
+        "CE1.04 | en veillant à la qualité du code et à sa documentation",
+        "CE1.06 | en choisissant les ressources techniques appropriées",
+        "AC11.01 | Implémenter des conceptions simples",
+        "AC11.02 | Élaborer des conceptions simples",
+        "AC11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications",
+        "AC11.04 | Développer des interfaces utilisateurs",
+        "AC21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences",
+        "AC21.02 | Appliquer des principes d'accessibilité et d'ergonomie",
+        "AC21.03 | Adopter de bonnes pratiques de conception et de programmation",
+        "AC31.01 | Choisir et implémenter les architectures adaptées"
+      ]
+    },
+    {
+      "category": "Optimiser",
+      "color": "#6d28d9",
+      "items": [
+        "CE2.01 | en formalisant et modélisant des situations complexes",
+        "CE2.02 | en recensant les algorithmes et les structures de données usuels",
+        "CE2.03 | en s'appuyant sur des schémas de raisonnement",
+        "CE2.04 | en justifiant les choix et validant les résultats",
+        "AC12.01 | Analyser un problème avec méthode",
+        "AC22.01 | Choisir des structures de données complexes adaptées au problème",
+        "AC22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code"
+      ]
+    },
+    {
+      "category": "Gérer",
+      "color": "#4c1d95",
+      "items": [
+        "CE4.01 | en respectant les réglementations sur la vie privée",
+        "CE4.05 | en assurant la cohérence et la qualité",
+        "AC14.01 | Mettre à jour et interroger une base de données relationnelle",
+        "AC14.02 | Visualiser des données",
+        "AC14.03 | Concevoir une base de données relationnelle",
+        "AC24.01 | Optimiser les modèles de données",
+        "AC24.02 | Assurer la sécurité des données",
+        "AC24.03 | Organiser la restitution de données",
+        "AC24.04 | Manipuler des données hétérogènes"
+      ]
+    },
+    {
+      "category": "Conduire",
+      "color": "#8b5cf6",
+      "items": [
+        "CE5.04 | en adoptant une démarche proactive, créative et critique",
+        "CE5.01 | en communiquant efficacement avec les différents acteurs d'un projet",
+        "AC15.01 | Appréhender les besoins du client et de l'utilisateur",
+        "AC15.02 | Mettre en place les outils de gestion de projet",
+        "AC15.03 | Identifier les acteurs et les différentes phases d'un cycle de développement",
+        "AC25.02 | Formaliser les besoins du client et de l'utilisateur",
+        "AC25.03 | Identifier les critères de faisabilité d'un projet informatique",
+        "AC25.04 | Définir et mettre en œuvre une démarche de suivi de projet"
+      ]
+    },
+    {
+      "category": "Collaborer",
+      "color": "#a78bfa",
+      "items": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "CE6.04 | en développant une communication efficace et collaborative",
+        "AC16.01 | Appréhender l'écosystème numérique",
+        "AC16.03 | Identifier les statuts, fonctions et rôles de chaque membre d'une équipe",
+        "AC16.04 | Acquérir les compétences interpersonnelles pour travailler en équipe",
+        "AC26.03 | Mobiliser les compétences interpersonnelles pour travailler en équipe",
+        "AC36.04 | Accompagner le management de projet informatique"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "Maintenance des équipements (MCO)",
+  "image": "img/maintenance-mco.svg",
+  "category": "alternance",
+  "github": "https://github.com/Tamanrasse/maintenance-equipements-mco",
+  "tags": [
+    {
+      "label": "Alternance",
+      "bg": "#ede9fe",
+      "color": "#5b21b6"
+    },
+    {
+      "label": "Systèmes",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "Mise à jour de BIOS, Windows, WSUS",
+  "detailedDescription": "Maintenance régulière : mises à jour Windows, BIOS, pilotes et applications métier, en fonction des besoins utilisateurs ou alertes WSUS.",
+  "skills": [
+    {
+      "category": "Optimiser",
+      "color": "#6d28d9",
+      "items": [
+        "CE2.01 | en formalisant et modélisant des situations complexes",
+        "CE2.03 | en s'appuyant sur des schémas de raisonnement",
+        "AC12.01 | Analyser un problème avec méthode"
+      ]
+    },
+    {
+      "category": "Administrer",
+      "color": "#5b21b6",
+      "items": [
+        "CE3.01 | en sécurisant le système d'information",
+        "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité",
+        "CE3.02 | en offrant une qualité de service optimale",
+        "CE3.04 | en assurant la continuité d'activité",
+        "AC13.01 | Identifier les composants d'un système numérique",
+        "AC13.02 | Utiliser les fonctionnalités de base d'un système multitâches / multiutilisateurs",
+        "AC13.04 | Configurer un poste de travail dans un réseau d'entreprise",
+        "AC23.02 | Utiliser des serveurs et services réseaux virtualisés",
+        "AC23.03 | Sécuriser les services et données d'un système",
+        "AC33.04 | Déployer et maintenir un réseau d'organisation en fonction de ses besoins"
+      ]
+    },
+    {
+      "category": "Collaborer",
+      "color": "#a78bfa",
+      "items": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "CE6.02 | en accompagnant la mise en œuvre des évolutions informatiques",
+        "CE6.03 | en veillant au respect des contraintes juridiques",
+        "CE6.04 | en développant une communication efficace et collaborative",
+        "AC16.01 | Appréhender l'écosystème numérique",
+        "AC26.04 | Rendre compte de son activité professionnelle"
+      ]
+    }
+  ]
+}

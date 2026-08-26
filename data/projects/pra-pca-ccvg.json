@@ -1,0 +1,70 @@
+{
+  "title": "Rédaction d'un PRA / PCA pour la CCVG",
+  "image": "img/pra-pca.svg",
+  "category": "but3",
+  "github": "https://github.com/Tamanrasse/pra-pca-ccvg",
+  "tags": [
+    {
+      "label": "BUT3",
+      "bg": "#fae8ff",
+      "color": "#a21caf"
+    },
+    {
+      "label": "Gouvernance & Résilience",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "Plan de Reprise et de Continuité d'Activité informatique",
+  "detailedDescription": "Audit des infrastructures et analyse des risques (BIA - Business Impact Analysis) pour la Communauté de Communes de la Vallée du Garon (CCVG). Rédaction et refonte complète du Plan de Continuité d'Activité (PCA) et du Plan de Reprise d'Activité (PRA) : définition des RTO (Recovery Time Objective) et RPO (Recovery Point Objective) pour les services critiques, cartographie des dépendances, formalisation des procédures de bascule/secours, stratégie de sauvegarde immuable et fiches réflexes en cas de cyberattaque ou sinistre physique.",
+  "skills": [
+    {
+      "category": "Administrer",
+      "color": "#5b21b6",
+      "items": [
+        "CE3.01 | en sécurisant le système d'information",
+        "CE3.02 | en offrant une qualité de service optimale",
+        "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité",
+        "CE3.04 | en assurant la continuité d'activité",
+        "AC23.03 | Sécuriser les services et données d'un système",
+        "AC33.03 | Appliquer une politique de sécurité au niveau de l'infrastructure"
+      ]
+    },
+    {
+      "category": "Conduire",
+      "color": "#8b5cf6",
+      "items": [
+        "CE5.01 | en communiquant efficacement avec les différents acteurs d'un projet",
+        "CE5.02 | en respectant les règles juridiques et les normes en vigueur",
+        "CE5.04 | en adoptant une démarche proactive, créative et critique",
+        "AC25.01 | Identifier les processus présents dans une organisation en vue d'améliorer les systèmes d'information",
+        "AC25.02 | Formaliser les besoins du client et de l'utilisateur",
+        "AC25.03 | Identifier les critères de faisabilité d'un projet informatique",
+        "AC25.04 | Définir et mettre en œuvre une démarche de suivi de projet"
+      ]
+    },
+    {
+      "category": "Gérer",
+      "color": "#4c1d95",
+      "items": [
+        "CE4.01 | en respectant les réglementations sur le respect de la vie privée et la protection des données personnelles",
+        "CE4.02 | en respectant les enjeux économiques, sociétaux et écologiques de l'utilisation du stockage de données",
+        "CE4.05 | en assurant la cohérence et la qualité",
+        "AC24.02 | Assurer la sécurité des données (intégrité et confidentialité)"
+      ]
+    },
+    {
+      "category": "Collaborer",
+      "color": "#a78bfa",
+      "items": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "CE6.02 | en accompagnant la mise en œuvre des évolutions informatiques",
+        "CE6.03 | en veillant au respect des contraintes juridiques",
+        "CE6.04 | en développant une communication efficace et collaborative",
+        "AC36.03 | Guider la conduite du changement informatique au sein d'une organisation",
+        "AC36.04 | Accompagner le management de projet informatique"
+      ]
+    }
+  ]
+}
+

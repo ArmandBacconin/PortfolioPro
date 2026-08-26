@@ -1,0 +1,63 @@
+{
+  "title": "Ingénierie Réseau : Segmentation & Interconnexion Sécurisée",
+  "image": "img/ingenierie-reseau.svg",
+  "category": "alternance",
+  "github": "https://github.com/Tamanrasse/ingenierie-reseau",
+  "tags": [
+    {
+      "label": "Alternance",
+      "bg": "#ede9fe",
+      "color": "#5b21b6"
+    },
+    {
+      "label": "Réseau & Sécurité",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "VLANs, pare-feux Stormshield, VPN IPsec & GRETAP",
+  "detailedDescription": "Refonte du réseau de plusieurs établissements scolaires, le projet le plus stimulant de mon alternance, en m'appuyant sur les acquis de ma certification CCNA 1. À Chaponost : unification physique du réseau de deux écoles, segmentation en VLANs, déploiement de pare-feux Stormshield, diagnostic et correction du routage, du NAT et de la DMZ, puis interconnexion sécurisée de trois écoles à la Mairie via des tunnels VPN IPsec site-à-site (IKEv2, chiffrement conforme aux recommandations ANSSI) avec filtrage strict des flux métiers. À Brignais : conception d'une architecture GRETAP encapsulée dans IPsec pour centraliser la téléphonie IP (ToIP) de trois écoles sur le pare-feu de la Mairie, transportant Data et ToIP de façon transparente et chiffrée sur le réseau WAN.",
+  "skills": [
+    {
+      "category": "Administrer",
+      "color": "#5b21b6",
+      "items": [
+        "CE3.01 | en sécurisant le système d'information",
+        "CE3.02 | en offrant une qualité de service optimale",
+        "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité",
+        "CE3.04 | en assurant la continuité d'activité",
+        "AC23.02 | Utiliser des serveurs et services réseaux virtualisés",
+        "AC23.03 | Sécuriser les services et données d'un système",
+        "AC33.02 | Configurer un serveur et des services réseaux de manière avancée",
+        "AC33.03 | Appliquer une politique de sécurité au niveau de l'infrastructure",
+        "AC33.04 | Déployer et maintenir un réseau d'organisation en fonction de ses besoins"
+      ]
+    },
+    {
+      "category": "Optimiser",
+      "color": "#6d28d9",
+      "items": [
+        "CE2.03 | en s'appuyant sur des schémas de raisonnement",
+        "CE2.04 | en justifiant les choix et validant les résultats",
+        "AC12.01 | Analyser un problème avec méthode"
+      ]
+    },
+    {
+      "category": "Conduire",
+      "color": "#8b5cf6",
+      "items": [
+        "CE5.01 | en communiquant efficacement avec les différents acteurs d'un projet",
+        "AC25.04 | Définir et mettre en œuvre une démarche de suivi de projet"
+      ]
+    },
+    {
+      "category": "Collaborer",
+      "color": "#a78bfa",
+      "items": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "AC16.01 | Appréhender l'écosystème numérique",
+        "AC26.04 | Rendre compte de son activité professionnelle"
+      ]
+    }
+  ]
+}

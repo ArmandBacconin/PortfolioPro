@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062e1c"/>
+      <stop offset="50%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="veeamGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadow4" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#10b981" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="360" fill="url(#bgGrad4)"/>
+
+  <!-- Active Directory DS (Left) -->
+  <g transform="translate(130, 180)" filter="url(#shadow4)">
+    <rect x="-65" y="-55" width="130" height="110" rx="12" fill="#042f2e" stroke="#2dd4bf" stroke-width="2.5"/>
+    <!-- Directory tree icon -->
+    <rect x="-30" y="-38" width="60" height="18" rx="4" fill="#0d9488"/>
+    <line x1="0" y1="-20" x2="0" y2="-5" stroke="#2dd4bf" stroke-width="2"/>
+    <line x1="-30" y1="-5" x2="30" y2="-5" stroke="#2dd4bf" stroke-width="2"/>
+    <rect x="-45" y="-5" width="30" height="16" rx="3" fill="#14b8a6"/>
+    <rect x="15" y="-5" width="30" height="16" rx="3" fill="#14b8a6"/>
+    <text x="0" y="32" fill="#ccfbf1" font-size="12" font-family="sans-serif" font-weight="bold" text-anchor="middle">Active Directory</text>
+    <text x="0" y="46" fill="#5eead4" font-size="10" font-family="sans-serif" text-anchor="middle">Windows Server</text>
+  </g>
+
+  <!-- Veeam Backup (Center) -->
+  <g transform="translate(300, 180)" filter="url(#shadow4)">
+    <circle r="48" fill="#065f46" stroke="#34d399" stroke-width="3"/>
+    <text x="0" y="-8" fill="#a7f3d0" font-size="12" font-family="sans-serif" font-weight="bold" text-anchor="middle">VEEAM</text>
+    <path d="M -15 10 L 0 20 L 15 10" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="0" y="70" fill="#ecfdf5" font-size="13" font-family="sans-serif" font-weight="bold" text-anchor="middle">Veeam B&amp;R</text>
+    <text x="0" y="86" fill="#a7f3d0" font-size="10" font-family="sans-serif" text-anchor="middle">Politique 3-2-1</text>
+  </g>
+
+  <!-- TrueNAS Core (Right) -->
+  <g transform="translate(470, 180)" filter="url(#shadow4)">
+    <rect x="-65" y="-55" width="130" height="110" rx="12" fill="#042f2e" stroke="#38bdf8" stroke-width="2.5"/>
+    <rect x="-45" y="-38" width="90" height="18" rx="4" fill="#0284c7"/>
+    <circle cx="-32" cy="-29" r="3" fill="#38bdf8"/>
+    <rect x="-45" y="-14" width="90" height="18" rx="4" fill="#0284c7"/>
+    <circle cx="-32" cy="-5" r="3" fill="#38bdf8"/>
+    <text x="0" y="32" fill="#e0f2fe" font-size="12" font-family="sans-serif" font-weight="bold" text-anchor="middle">TrueNAS Core</text>
+    <text x="0" y="46" fill="#38bdf8" font-size="10" font-family="sans-serif" text-anchor="middle">Dépôt Immuable ZFS</text>
+  </g>
+
+  <!-- Flow lines -->
+  <path d="M 195 180 L 250 180" stroke="#34d399" stroke-width="3" stroke-dasharray="6,4"/>
+  <path d="M 350 180 L 405 180" stroke="#34d399" stroke-width="3" stroke-dasharray="6,4"/>
+
+  <!-- Top Badge -->
+  <rect x="20" y="20" width="190" height="28" rx="6" fill="rgba(52, 211, 153, 0.2)" stroke="#34d399" stroke-width="1"/>
+  <text x="115" y="38" fill="#d1fae5" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">INFRASTRUCTURE &amp; VEEAM</text>
+</svg>
+

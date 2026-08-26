@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgPhp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140c24"/>
+      <stop offset="50%" stop-color="#24103c"/>
+      <stop offset="100%" stop-color="#3d1452"/>
+    </linearGradient>
+    <linearGradient id="feedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glowPhp" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#a855f7" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="360" fill="url(#bgPhp)"/>
+
+  <!-- Tech Dots / Sports Background -->
+  <g fill="#a855f7" opacity="0.12">
+    <circle cx="100" cy="100" r="3"/>
+    <circle cx="200" cy="80" r="3"/>
+    <circle cx="450" cy="90" r="3"/>
+    <circle cx="500" cy="280" r="3"/>
+    <circle cx="80" cy="270" r="3"/>
+  </g>
+
+  <!-- Social App Card (Center) -->
+  <g transform="translate(300, 180)" filter="url(#glowPhp)">
+    <rect x="-135" y="-80" width="270" height="160" rx="14" fill="#1f1235" stroke="#a855f7" stroke-width="2.5"/>
+
+    <!-- App Header -->
+    <rect x="-135" y="-80" width="270" height="34" rx="14" fill="#2d174d"/>
+    <rect x="-135" y="-55" width="270" height="9" fill="#2d174d"/>
+    <circle cx="-110" cy="-63" r="10" fill="url(#feedGrad)"/>
+    <text x="-90" y="-60" fill="#fdf2f8" font-size="11" font-family="sans-serif" font-weight="bold">SportFeed • Communauté</text>
+    <text x="100" y="-60" fill="#f472b6" font-size="12">❤️ 128</text>
+
+    <!-- Post 1 (Running / Fitness) -->
+    <g transform="translate(-115, -34)">
+      <rect width="230" height="42" rx="8" fill="#2b1847" stroke="#7c3aed" stroke-width="1"/>
+      <circle cx="18" cy="21" r="10" fill="#ec4899"/>
+      <text x="18" y="25" fill="#fff" font-size="10" text-anchor="middle">🏃</text>
+      <text x="36" y="16" fill="#f3e8ff" font-size="10" font-family="sans-serif" font-weight="bold">Session Trail 12km</text>
+      <text x="36" y="30" fill="#c084fc" font-size="8" font-family="sans-serif">#Course #Chaponost • 54min</text>
+      <text x="210" y="26" fill="#ec4899" font-size="11">🔥</text>
+    </g>
+
+    <!-- Post 2 (Cycling) -->
+    <g transform="translate(-115, 16)">
+      <rect width="230" height="42" rx="8" fill="#2b1847" stroke="#6366f1" stroke-width="1"/>
+      <circle cx="18" cy="21" r="10" fill="#3b82f6"/>
+      <text x="18" y="25" fill="#fff" font-size="10" text-anchor="middle">🚴</text>
+      <text x="36" y="16" fill="#f3e8ff" font-size="10" font-family="sans-serif" font-weight="bold">Sortie Vélo de route</text>
+      <text x="36" y="30" fill="#a5b4fc" font-size="8" font-family="sans-serif">#Cyclisme #MontsDuLyonnais</text>
+      <text x="210" y="26" fill="#38bdf8" font-size="11">⚡</text>
+    </g>
+  </g>
+
+  <!-- Left: PHP MVC Backend -->
+  <g transform="translate(85, 180)" filter="url(#glowPhp)">
+    <rect x="-55" y="-45" width="110" height="90" rx="12" fill="#1f1235" stroke="#818cf8" stroke-width="2"/>
+    <text x="0" y="-15" fill="#818cf8" font-size="20" font-family="sans-serif" font-weight="900" text-anchor="middle">🐘 PHP</text>
+    <text x="0" y="8" fill="#e0e7ff" font-size="10" font-family="sans-serif" font-weight="bold" text-anchor="middle">Architecture MVC</text>
+    <text x="0" y="24" fill="#a5b4fc" font-size="8" font-family="sans-serif" text-anchor="middle">Contrôleurs &amp; Vues</text>
+  </g>
+
+  <!-- Right: MySQL Database -->
+  <g transform="translate(515, 180)" filter="url(#glowPhp)">
+    <rect x="-55" y="-45" width="110" height="90" rx="12" fill="#1f1235" stroke="#38bdf8" stroke-width="2"/>
+    <text x="0" y="-15" fill="#38bdf8" font-size="20" font-family="sans-serif" font-weight="900" text-anchor="middle">🗄️ MySQL</text>
+    <text x="0" y="8" fill="#e0f2fe" font-size="10" font-family="sans-serif" font-weight="bold" text-anchor="middle">Base Relationnelle</text>
+    <text x="0" y="24" fill="#7dd3fc" font-size="8" font-family="sans-serif" text-anchor="middle">Users, Posts, Likes</text>
+  </g>
+
+  <!-- Connectors -->
+  <line x1="140" y1="180" x2="165" y2="180" stroke="#818cf8" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="435" y1="180" x2="460" y2="180" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Top Badge -->
+  <rect x="20" y="20" width="190" height="28" rx="6" fill="rgba(236, 72, 153, 0.2)" stroke="#ec4899" stroke-width="1"/>
+  <text x="115" y="38" fill="#fdf2f8" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">PHP &amp; RÉSEAU SOCIAL</text>
+</svg>
+

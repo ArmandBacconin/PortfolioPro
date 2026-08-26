@@ -1,0 +1,69 @@
+{
+  "title": "Mise en place d'un SOC : Wazuh, Suricata, MISP & Zammad",
+  "image": "img/soc.svg",
+  "category": "but3",
+  "github": "https://github.com/Tamanrasse/soc-wazuh-suricata-misp",
+  "tags": [
+    {
+      "label": "BUT3",
+      "bg": "#fae8ff",
+      "color": "#a21caf"
+    },
+    {
+      "label": "Cybersécurité & SIEM",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "SIEM, NIDS, Threat Intelligence & Ticketing d'incidents",
+  "detailedDescription": "Architecture et déploiement d'un centre opérationnel de sécurité (SOC) open-source complet. Mise en place de Wazuh (SIEM / XDR) pour la collecte et l'analyse centralisée des journaux d'événements et détection d'intrusions sur les endpoints, intégration de Suricata (NIDS) pour la surveillance des flux réseau et la détection d'anomalies de trafic, couplage avec MISP (Malware Information Sharing Platform) pour l'enrichissement en Threat Intelligence (IoC), et automatisation de la création de tickets d'incidents de sécurité vers le helpdesk Zammad avec alertes temps réel.",
+  "skills": [
+    {
+      "category": "Administrer",
+      "color": "#5b21b6",
+      "items": [
+        "CE3.01 | en sécurisant le système d'information",
+        "CE3.02 | en offrant une qualité de service optimale",
+        "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité",
+        "CE3.04 | en assurant la continuité d'activité",
+        "AC23.03 | Sécuriser les services et données d'un système",
+        "AC33.01 | Créer des processus de traitement automatisé (solution de gestion de configuration et de parc, intégration et déploiement continu...)",
+        "AC33.02 | Configurer un serveur et des services réseaux de manière avancée (virtualisation...)",
+        "AC33.03 | Appliquer une politique de sécurité au niveau de l'infrastructure",
+        "AC33.04 | Déployer et maintenir un réseau d'organisation en fonction de ses besoins"
+      ]
+    },
+    {
+      "category": "Optimiser",
+      "color": "#6d28d9",
+      "items": [
+        "CE2.01 | en formalisant et modélisant des situations complexes",
+        "CE2.03 | en s'appuyant sur des schémas de raisonnement",
+        "CE2.04 | en justifiant les choix et validant les résultats",
+        "AC12.01 | Analyser un problème avec méthode",
+        "AC22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code"
+      ]
+    },
+    {
+      "category": "Réaliser",
+      "color": "#7c3aed",
+      "items": [
+        "CE1.01 | en respectant les besoins décrits par le client",
+        "CE1.06 | en choisissant les ressources techniques appropriées",
+        "AC31.01 | Choisir et implémenter les architectures adaptées",
+        "AC31.03 | Intégrer des solutions dans un environnement de production"
+      ]
+    },
+    {
+      "category": "Collaborer",
+      "color": "#a78bfa",
+      "items": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "CE6.04 | en développant une communication efficace et collaborative",
+        "AC36.01 | Organiser et partager une veille technologique et informationnelle",
+        "AC36.04 | Accompagner le management de projet informatique"
+      ]
+    }
+  ]
+}
+

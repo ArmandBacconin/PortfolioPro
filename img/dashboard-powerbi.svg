@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgPowerBi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1308"/>
+      <stop offset="50%" stop-color="#2d1c0b"/>
+      <stop offset="100%" stop-color="#3b1d3d"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="glowPowerBi" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#f59e0b" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="360" fill="url(#bgPowerBi)"/>
+
+  <!-- Analytics Grid (Center Dashboard UI) -->
+  <g transform="translate(300, 180)" filter="url(#glowPowerBi)">
+    <rect x="-135" y="-80" width="270" height="160" rx="14" fill="#1f160e" stroke="#f59e0b" stroke-width="2.5"/>
+
+    <!-- Dashboard Title Bar -->
+    <rect x="-135" y="-80" width="270" height="30" rx="14" fill="#2d2013"/>
+    <rect x="-135" y="-60" width="270" height="10" fill="#2d2013"/>
+    <text x="-120" y="-60" fill="#fef3c7" font-size="11" font-family="sans-serif" font-weight="bold">Power BI • Pilotage Stratégique</text>
+    <circle cx="115" cy="-65" r="4" fill="#10b981"/>
+
+    <!-- KPI Card 1 -->
+    <g transform="translate(-120, -35)">
+      <rect width="110" height="35" rx="6" fill="#2d2013" stroke="#f59e0b" stroke-width="1"/>
+      <text x="10" y="14" fill="#fde68a" font-size="8" font-family="sans-serif">Chiffre d'Affaires</text>
+      <text x="10" y="28" fill="#ffffff" font-size="11" font-family="sans-serif" font-weight="bold">+24.5% 📈</text>
+    </g>
+
+    <!-- KPI Card 2 -->
+    <g transform="translate(10, -35)">
+      <rect width="110" height="35" rx="6" fill="#2d2013" stroke="#818cf8" stroke-width="1"/>
+      <text x="10" y="14" fill="#c7d2fe" font-size="8" font-family="sans-serif">Performance</text>
+      <text x="10" y="28" fill="#ffffff" font-size="11" font-family="sans-serif" font-weight="bold">98.2% ⭐</text>
+    </g>
+
+    <!-- Bar Chart Graphic -->
+    <g transform="translate(-120, 10)">
+      <rect width="110" height="60" rx="6" fill="#291d10"/>
+      <!-- Bars -->
+      <rect x="15" y="32" width="12" height="20" rx="2" fill="#d97706"/>
+      <rect x="35" y="22" width="12" height="30" rx="2" fill="#f59e0b"/>
+      <rect x="55" y="12" width="12" height="40" rx="2" fill="#fbbf24"/>
+      <rect x="75" y="4" width="12" height="48" rx="2" fill="url(#goldGrad)"/>
+    </g>
+
+    <!-- Donut / Pie Chart Graphic -->
+    <g transform="translate(10, 10)">
+      <rect width="110" height="60" rx="6" fill="#291d10"/>
+      <circle cx="55" cy="30" r="20" fill="none" stroke="#6366f1" stroke-width="8"/>
+      <circle cx="55" cy="30" r="20" fill="none" stroke="#f59e0b" stroke-width="8" stroke-dasharray="50,75"/>
+      <circle cx="55" cy="30" r="20" fill="none" stroke="#10b981" stroke-width="8" stroke-dasharray="25,100"/>
+    </g>
+  </g>
+
+  <!-- Left: DAX & Modeling Badge -->
+  <g transform="translate(85, 180)" filter="url(#glowPowerBi)">
+    <rect x="-55" y="-45" width="110" height="90" rx="12" fill="#22170f" stroke="#f59e0b" stroke-width="2"/>
+    <text x="0" y="-15" fill="#f59e0b" font-size="20" font-family="sans-serif" font-weight="900" text-anchor="middle">DAX</text>
+    <text x="0" y="8" fill="#fef3c7" font-size="10" font-family="sans-serif" font-weight="bold" text-anchor="middle">Modélisation</text>
+    <text x="0" y="24" fill="#fde68a" font-size="8" font-family="sans-serif" text-anchor="middle">Mesures &amp; Filtres</text>
+  </g>
+
+  <!-- Right: Décisionnel / Visuals Badge -->
+  <g transform="translate(515, 180)" filter="url(#glowPowerBi)">
+    <rect x="-55" y="-45" width="110" height="90" rx="12" fill="#22170f" stroke="#a855f7" stroke-width="2"/>
+    <text x="0" y="-15" fill="#c084fc" font-size="20" font-family="sans-serif" font-weight="900" text-anchor="middle">📊</text>
+    <text x="0" y="8" fill="#f3e8ff" font-size="10" font-family="sans-serif" font-weight="bold" text-anchor="middle">Décisionnel</text>
+    <text x="0" y="24" fill="#c084fc" font-size="8" font-family="sans-serif" text-anchor="middle">Ventes &amp; Finances</text>
+  </g>
+
+  <!-- Connectors -->
+  <line x1="140" y1="180" x2="165" y2="180" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="435" y1="180" x2="460" y2="180" stroke="#a855f7" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Top Badge -->
+  <rect x="20" y="20" width="190" height="28" rx="6" fill="rgba(245, 158, 11, 0.2)" stroke="#f59e0b" stroke-width="1"/>
+  <text x="115" y="38" fill="#fef3c7" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">POWER BI &amp; DATA ANALYTICS</text>
+</svg>
+

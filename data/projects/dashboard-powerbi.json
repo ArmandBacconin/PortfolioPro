@@ -1,0 +1,49 @@
+{
+  "title": "Dashboard Power BI",
+  "image": "img/dashboard-powerbi.svg",
+  "category": "but1",
+  "github": "https://github.com/Tamanrasse/dashboard-powerbi",
+  "tags": [
+    {
+      "label": "BUT1",
+      "bg": "#f5f3ff",
+      "color": "#7c3aed"
+    },
+    {
+      "label": "Data",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "Pilotage stratégique",
+  "detailedDescription": "Création de tableaux de bord Power BI pour synthétiser les résultats d'une entreprise (ventes, finances, performances) afin d'accompagner les prises de décisions stratégiques.",
+  "skills": [
+    {
+      "category": "Réaliser",
+      "color": "#7c3aed",
+      "items": [
+        "CE1.06 | en choisissant les ressources techniques appropriées",
+        "AC21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences",
+        "AC21.04"
+      ]
+    },
+    {
+      "category": "Optimiser",
+      "color": "#6d28d9",
+      "items": [
+        "CE2.02 | en recensant les algorithmes et les structures de données usuels",
+        "CE2.04 | en justifiant les choix et validant les résultats",
+        "AC22.01 | Choisir des structures de données complexes adaptées au problème",
+        "AC22.02"
+      ]
+    },
+    {
+      "category": "Collaborer",
+      "color": "#a78bfa",
+      "items": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "AC26.03 | Mobiliser les compétences interpersonnelles pour travailler en équipe"
+      ]
+    }
+  ]
+}

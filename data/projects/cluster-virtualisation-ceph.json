@@ -1,0 +1,67 @@
+{
+  "title": "Cluster de virtualisation HA (3 nœuds) & Ceph",
+  "image": "img/cluster-ceph.svg",
+  "category": "but3",
+  "github": "https://github.com/Tamanrasse/cluster-virtualisation-ceph",
+  "tags": [
+    {
+      "label": "BUT3",
+      "bg": "#fae8ff",
+      "color": "#a21caf"
+    },
+    {
+      "label": "Virtualisation & Stockage",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "Cluster Proxmox VE, stockage distribué Ceph, Haute Disponibilité",
+  "detailedDescription": "Conception et déploiement d'une infrastructure de virtualisation haute disponibilité composée d'un cluster à 3 nœuds (Proxmox VE / KVM) interconnectés par un réseau dédié à faible latence. Intégration d'un pool de stockage hyperconvergé et distribué avec Ceph (OSD, MON, MGR), configuration du quorum (Corosync), du fencing/watchdog matériel et mise en place de la tolérance aux pannes avec basculement automatique (HA) et migration à chaud (Live Migration) des machines virtuelles sans interruption de service.",
+  "skills": [
+    {
+      "category": "Administrer",
+      "color": "#5b21b6",
+      "items": [
+        "CE3.01 | en sécurisant le système d'information",
+        "CE3.02 | en offrant une qualité de service optimale",
+        "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité",
+        "CE3.04 | en assurant la continuité d'activité",
+        "AC23.02 | Utiliser des serveurs et services réseaux virtualisés",
+        "AC33.02 | Configurer un serveur et des services réseaux de manière avancée (virtualisation...)",
+        "AC33.03 | Appliquer une politique de sécurité au niveau de l'infrastructure",
+        "AC33.04 | Déployer et maintenir un réseau d'organisation en fonction de ses besoins"
+      ]
+    },
+    {
+      "category": "Optimiser",
+      "color": "#6d28d9",
+      "items": [
+        "CE2.01 | en formalisant et modélisant des situations complexes",
+        "CE2.03 | en s'appuyant sur des schémas de raisonnement",
+        "CE2.04 | en justifiant les choix et validant les résultats",
+        "AC12.01 | Analyser un problème avec méthode",
+        "AC22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code"
+      ]
+    },
+    {
+      "category": "Gérer",
+      "color": "#4c1d95",
+      "items": [
+        "CE4.02 | en respectant les enjeux économiques, sociétaux et écologiques de l'utilisation du stockage de données, ainsi que les différentes infrastructures",
+        "CE4.05 | en assurant la cohérence et la qualité",
+        "AC24.02 | Assurer la sécurité des données (intégrité et confidentialité)"
+      ]
+    },
+    {
+      "category": "Collaborer",
+      "color": "#a78bfa",
+      "items": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "CE6.02 | en accompagnant la mise en œuvre des évolutions informatiques",
+        "AC36.01 | Organiser et partager une veille technologique et informationnelle",
+        "AC36.04 | Accompagner le management de projet informatique"
+      ]
+    }
+  ]
+}
+

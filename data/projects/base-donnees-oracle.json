@@ -1,0 +1,52 @@
+{
+  "title": "Base de données Oracle",
+  "image": "img/base-donnees-oracle.svg",
+  "category": "but1",
+  "github": "https://github.com/Tamanrasse/base-donnees-oracle",
+  "tags": [
+    {
+      "label": "BUT1",
+      "bg": "#f5f3ff",
+      "color": "#7c3aed"
+    },
+    {
+      "label": "Bases de données",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "Gestion centre de formation médicale",
+  "detailedDescription": "Conception et implémentation d'une base de données relationnelle Oracle pour modéliser les activités d'un centre de formation médicale : gestion des cours, formateurs, apprenants et plannings.",
+  "skills": [
+    {
+      "category": "Réaliser",
+      "color": "#7c3aed",
+      "items": [
+        "CE1.03 | en appliquant les principes algorithmiques",
+        "CE1.04 | en veillant à la qualité du code et à sa documentation",
+        "AC21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences",
+        "AC21.02 | Appliquer des principes d'accessibilité et d'ergonomie",
+        "AC21.03 | Adopter de bonnes pratiques de conception et de programmation",
+        "AC21.04"
+      ]
+    },
+    {
+      "category": "Optimiser",
+      "color": "#6d28d9",
+      "items": [
+        "CE2.02 | en recensant les algorithmes et les structures de données usuels",
+        "CE2.04 | en justifiant les choix et validant les résultats",
+        "AC22.01 | Choisir des structures de données complexes adaptées au problème",
+        "AC22.02"
+      ]
+    },
+    {
+      "category": "Administrer",
+      "color": "#5b21b6",
+      "items": [
+        "CE3.01 | en sécurisant le système d'information",
+        "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité"
+      ]
+    }
+  ]
+}

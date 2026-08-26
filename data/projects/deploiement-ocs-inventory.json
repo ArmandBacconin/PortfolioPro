@@ -1,0 +1,72 @@
+{
+  "title": "Déploiement de serveur d'inventaire (OCS)",
+  "image": "img/ocs-inventory.svg",
+  "category": "alternance",
+  "github": "https://github.com/Tamanrasse/deploiement-ocs-inventory",
+  "tags": [
+    {
+      "label": "Alternance",
+      "bg": "#ede9fe",
+      "color": "#5b21b6"
+    },
+    {
+      "label": "Réseau",
+      "bg": "#f4f0fc",
+      "color": "#4c1d95"
+    }
+  ],
+  "shortDescription": "Mise en place de l'inventaire réseau",
+  "detailedDescription": "Mise en place d'un serveur OCS Inventory pour automatiser l'inventaire matériel et logiciel du parc informatique.",
+  "skills": [
+    {
+      "category": "Réaliser",
+      "color": "#7c3aed",
+      "items": [
+        "CE1.01 | en respectant les besoins décrits par le client",
+        "CE1.06 | en choisissant les ressources techniques appropriées",
+        "AC11.03 | Faire des essais et évaluer leurs résultats en regard des spécifications",
+        "AC21.01 | Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences",
+        "AC31.02 | Faire évoluer une application existante",
+        "AC31.03 | Intégrer des solutions dans un environnement de production"
+      ]
+    },
+    {
+      "category": "Optimiser",
+      "color": "#6d28d9",
+      "items": [
+        "CE2.03 | en s'appuyant sur des schémas de raisonnement",
+        "CE2.04 | en justifiant les choix et validant les résultats",
+        "AC12.01 | Analyser un problème avec méthode",
+        "AC22.03 | Comprendre les enjeux et moyens de sécurisation des données et du code"
+      ]
+    },
+    {
+      "category": "Administrer",
+      "color": "#5b21b6",
+      "items": [
+        "CE3.01 | en sécurisant le système d'information",
+        "CE3.03 | en appliquant les normes en vigueur et les bonnes pratiques architecturales et de sécurité",
+        "CE3.02 | en offrant une qualité de service optimale",
+        "CE3.04 | en assurant la continuité d'activité",
+        "AC23.02 | Utiliser des serveurs et services réseaux virtualisés",
+        "AC23.03 | Sécuriser les services et données d'un système",
+        "AC33.02 | Configurer un serveur et des services réseaux de manière avancée",
+        "AC33.03 | Appliquer une politique de sécurité au niveau de l'infrastructure"
+      ]
+    },
+    {
+      "category": "Collaborer",
+      "color": "#a78bfa",
+      "items": [
+        "CE6.01 | en inscrivant sa démarche au sein d'une équipe pluridisciplinaire",
+        "CE6.02 | en accompagnant la mise en œuvre des évolutions informatiques",
+        "CE6.03 | en veillant au respect des contraintes juridiques",
+        "CE6.04 | en développant une communication efficace et collaborative",
+        "AC16.01 | Appréhender l'écosystème numérique",
+        "AC26.03 | Mobiliser les compétences interpersonnelles pour travailler en équipe",
+        "AC26.04 | Rendre compte de son activité professionnelle",
+        "AC36.04 | Accompagner le management de projet informatique"
+      ]
+    }
+  ]
+}

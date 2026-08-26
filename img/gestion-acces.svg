@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgAcces" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180b2a"/>
+      <stop offset="50%" stop-color="#2d1045"/>
+      <stop offset="100%" stop-color="#4a154b"/>
+    </linearGradient>
+    <filter id="glowAcces" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#ec4899" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="360" fill="url(#bgAcces)"/>
+
+  <!-- Background Security Nodes -->
+  <g stroke="#f472b6" stroke-width="1" opacity="0.15">
+    <circle cx="300" cy="180" r="130" fill="none"/>
+    <circle cx="300" cy="180" r="90" fill="none"/>
+  </g>
+
+  <!-- Center Security Lock & Identity Shield -->
+  <g transform="translate(300, 180)" filter="url(#glowAcces)">
+    <rect x="-65" y="-70" width="130" height="140" rx="16" fill="#240c39" stroke="#f472b6" stroke-width="2.5"/>
+    
+    <!-- Lock shackle -->
+    <path d="M -22 -70 L -22 -95 A 22 22 0 0 1 22 -95 L 22 -70" fill="none" stroke="#f472b6" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Keyhole / User ID -->
+    <circle cx="0" cy="-20" r="14" fill="#a855f7"/>
+    <path d="M -18 15 C -18 3 -8 -2 0 -2 C 8 -2 18 3 18 15 Z" fill="#a855f7"/>
+    <circle cx="0" cy="36" r="5" fill="#f472b6"/>
+    <rect x="-2" y="36" width="4" height="12" fill="#f472b6"/>
+
+    <text x="0" y="60" fill="#fdf2f8" font-size="10" font-family="sans-serif" font-weight="bold" text-anchor="middle">IAM &amp; SÉCURITÉ</text>
+  </g>
+
+  <!-- Active Directory & O365 (Top Left) -->
+  <g transform="translate(130, 110)" filter="url(#glowAcces)">
+    <rect x="-65" y="-25" width="130" height="50" rx="10" fill="#240c39" stroke="#c084fc" stroke-width="2"/>
+    <text x="0" y="-3" fill="#f3e8ff" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">🏢 Active Directory</text>
+    <text x="0" y="14" fill="#c084fc" font-size="9" font-family="sans-serif" text-anchor="middle">&amp; Office 365</text>
+  </g>
+
+  <!-- Partages & Ciril (Bottom Left) -->
+  <g transform="translate(130, 250)" filter="url(#glowAcces)">
+    <rect x="-65" y="-25" width="130" height="50" rx="10" fill="#240c39" stroke="#a855f7" stroke-width="2"/>
+    <text x="0" y="-3" fill="#f3e8ff" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">📁 Droits Partages</text>
+    <text x="0" y="14" fill="#a855f7" font-size="9" font-family="sans-serif" text-anchor="middle">Ciril RH &amp; Finances</text>
+  </g>
+
+  <!-- VPN & Systancia (Top Right) -->
+  <g transform="translate(470, 110)" filter="url(#glowAcces)">
+    <rect x="-65" y="-25" width="130" height="50" rx="10" fill="#240c39" stroke="#38bdf8" stroke-width="2"/>
+    <text x="0" y="-3" fill="#e0f2fe" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">🔒 VPN &amp; Systancia</text>
+    <text x="0" y="14" fill="#38bdf8" font-size="9" font-family="sans-serif" text-anchor="middle">Accès Distant Sécurisé</text>
+  </g>
+
+  <!-- GPO & Politiques (Bottom Right) -->
+  <g transform="translate(470, 250)" filter="url(#glowAcces)">
+    <rect x="-65" y="-25" width="130" height="50" rx="10" fill="#240c39" stroke="#34d399" stroke-width="2"/>
+    <text x="0" y="-3" fill="#ecfdf5" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">📜 GPO &amp; Sécurité</text>
+    <text x="0" y="14" fill="#34d399" font-size="9" font-family="sans-serif" text-anchor="middle">Règles de Connexion</text>
+  </g>
+
+  <!-- Connection rays -->
+  <line x1="195" y1="120" x2="235" y2="160" stroke="#c084fc" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="195" y1="240" x2="235" y2="200" stroke="#a855f7" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="405" y1="120" x2="365" y2="160" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4"/>
+  <line x1="405" y1="240" x2="365" y2="200" stroke="#34d399" stroke-width="2" stroke-dasharray="4,4"/>
+
+  <!-- Top Badge -->
+  <rect x="20" y="20" width="200" height="28" rx="6" fill="rgba(244, 114, 182, 0.2)" stroke="#f472b6" stroke-width="1"/>
+  <text x="120" y="38" fill="#fdf2f8" font-size="11" font-family="sans-serif" font-weight="bold" text-anchor="middle">GESTION DES ACCÈS &amp; GPO</text>
+</svg>
+
